@@ -4,13 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>DEZANOSAURUS</title>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to bottom, #fce4ec, #f8bbd0);
+      background: linear-gradient(to bottom, #e4ecfc, #bbd0f8);
       text-align: center;
-      color: #880e4f;
+      color: #0e3c88;
     }
 
     .container {
@@ -24,7 +27,7 @@
       height: 120px;
       border-radius: 50%;
       object-fit: cover;
-      border: 3px solid #880e4f;
+      border: 3px solid #0e3c88;
       margin-top: 30px;
     }
 
@@ -34,10 +37,13 @@
     }
 
     .link-button {
-      display: block;
-      background-color: #fce4ec;
-      border: 2px solid #880e4f;
-      color: #880e4f;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background-color: #e4ecfc;
+      border: 2px solid #0e3c88;
+      color: #0e3c88;
       font-size: 18px;
       font-weight: bold;
       margin: 15px auto;
@@ -50,14 +56,18 @@
     }
 
     .link-button:hover {
-      background-color: #f8bbd0;
+      background-color: #bbd0f8;
       transform: scale(1.05);
     }
 
     .footer {
       margin-top: 50px;
       font-size: 14px;
-      color: #ad1457;
+      color: #143cad;
+    }
+
+    audio {
+      margin-top: 20px;
     }
   </style>
 </head>
@@ -66,10 +76,23 @@
     <img src="umbrella person.jpg" alt="Profile" class="profile-img" />
     <h1>@devdannarendrata</h1>
 
-    <a href="https://www.tiktok.com/@dezdangg?_t=ZS-8y9wjy9aaYM&_r=1" class="link-button">Tiktok 💥</a>
-    <a href="https://open.spotify.com/user/31h7rgssc4hvr6ohtqrheoy5kvzu?si=fo06ZaZ6Ry21ILcPSGyxzQ" class="link-button">Spotify 🎧</a>
-    <a href="https://youtube.com/@madidan?si=8vdiYJftvYzswcJ3" class="link-button">YouTube 💥</a>
-    <a href="https://www.instagram.com/devdannarendrata?igsh=MXJjOHFncmEyZHVkdQ==" class="link-button">Instagram  💥</a>
+    <a href="https://www.tiktok.com/@dezdangg?_t=ZS-8y9wjy9aaYM&_r=1" class="link-button">
+      <i class="fab fa-tiktok"></i> Tiktok
+    </a>
+    <a href="https://open.spotify.com/user/31h7rgssc4hvr6ohtqrheoy5kvzu?si=uKJd0506TrmerMvR3MHJbg" class="link-button">
+      <i class="fab fa-spotify"></i> Spotify
+    </a>
+    <a href="https://youtube.com/@madidan?si=8vdiYJftvYzswcJ3" class="link-button">
+      <i class="fab fa-youtube"></i> YouTube
+    </a>
+    <a href="https://www.instagram.com/devdannarendrata?igsh=MXJjOHFncmEyZHVkdQ==" class="link-button">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+    
+    <audio controls>
+      <source src="v4.www-y2mate.blog - Arctic Monkeys - 505 (320 KBps).mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
 
     <div class="footer">Created by Devdan Zaim Narendrata</div>
   </div>
