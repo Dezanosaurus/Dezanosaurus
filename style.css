@@ -250,13 +250,13 @@
   display: flex;
   width: 100%;
   height: 100%;
-  padding: 30px 20px;
-  justify-content: center;
-  align-items: center;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: inherit;
+}
+
+.project-cards .card a img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .contact-final-section {
